@@ -7,7 +7,7 @@ from rich.pretty import pprint
 from openai import OpenAI
 
 Model = OpenAIChat(base_url="https://openrouter.ai/api/v1", 
-                 api_key="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")
+                 api_key="")
 
 # UserId for the memories
 user_id = "ava"
