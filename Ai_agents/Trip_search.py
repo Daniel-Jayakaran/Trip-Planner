@@ -40,7 +40,7 @@ def Trip_searching(user_input):
                 markdown=True,
                 debug_mode=True,
                 model=OpenRouter(id="gpt-4o-mini",
-                                api_key="")
+                                api_key="<OpenAI API-Key>")
                 )
            
            
