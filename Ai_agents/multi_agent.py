@@ -34,7 +34,7 @@ def mood_finder(user_input: str):
   from openai import OpenAI
   
   client = OpenAI(base_url="https://openrouter.ai/api/v1", 
-                  api_key="")
+                  api_key="<OpenAI API-Key>")
   
   response = client.beta.chat.completions.parse(
       model="openai/gpt-4o-mini",
