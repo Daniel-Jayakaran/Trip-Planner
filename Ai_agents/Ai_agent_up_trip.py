@@ -13,7 +13,7 @@ qdrant_client = QdrantClient(
 qdrant_client.delete_collection(collection_name="Trip_planner_data")
 # Initialize OpenAI client
 openai_client = OpenAI(base_url="https://openrouter.ai/api/v1", 
-                       api_key="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")
+                       api_key="")
 
 # Collection name
 COLLECTION_NAME = "Trip_planner_dataset"
