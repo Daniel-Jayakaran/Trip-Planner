@@ -8,7 +8,7 @@ qdrant_client = QdrantClient(
     api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwiZXhwIjoxNzQ5MjI3NjcyfQ.KEUgkxkY_o4JAdHyRg_02opN1jg7i8Hq4T-uqPDXtSg",
 )
 client = OpenAI(base_url="https://openrouter.ai/api/v1", 
-                api_key="")
+                api_key="<OpenAI API-Key>")
 
 def retrieve_chunks(query):
     """Retrieve relevant document chunks based on a query"""
