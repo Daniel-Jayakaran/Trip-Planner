@@ -43,35 +43,6 @@ if __name__ == "__main__":
 
     image_base64 = get_base64_image("Travel_icon.png")
     
-    #Animation CSS Inside streamlit.markdown():
-    
-       
-
-    st.markdown(
-        """
-        <style>
-        body {
-            background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
-            background-size: 400% 400%;
-            animation: fadeBackground 15s ease infinite;
-        }
-
-        @keyframes fadeBackground {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
 
     # --- Custom CSS for layout and components ---
     st.markdown("""
