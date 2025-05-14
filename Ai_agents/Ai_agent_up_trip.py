@@ -7,7 +7,7 @@ import textwrap
 # Initialize Qdrant client
 qdrant_client = QdrantClient(
     url="https://a97589e9-aa15-490f-9f45-087a4c1739cc.us-east4-0.gcp.cloud.qdrant.io", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwiZXhwIjoxNzQ5MjI3NjcyfQ.KEUgkxkY_o4JAdHyRg_02opN1jg7i8Hq4T-uqPDXtSg",
+    api_key="",
 )
 
 qdrant_client.delete_collection(collection_name="Trip_planner_data")
